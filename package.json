@@ -1,0 +1,30 @@
+{
+  "name": "checkmeout",
+  "version": "1.0.0",
+  "description": "n12 midterm project",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consihon/checkMeOut.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/consihon/checkMeOut/issues"
+  },
+  "homepage": "https://github.com/consihon/checkMeOut#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "checkmeout": "./client.js"
+  }
+}
